@@ -1,0 +1,7 @@
+build/*
+src/node_modules
+src/package*
+src/server_live.js
+src/server_sec
+src/web3.min.js.orig
+.idea

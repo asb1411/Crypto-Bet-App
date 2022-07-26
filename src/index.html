@@ -1,0 +1,51 @@
+<html>
+<script language="javaScript" type="text/javascript" src="web3.min.js"></script>
+<script language="javaScript" type="text/javascript" src="server.js"></script>
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  text-align: center;
+  opacity: 0.5;
+}
+
+.center {
+  text-align: center;
+  border: 3px solid blue;
+  padding: 25px 25px 25px 25px;
+  justify-content: space-between;
+}
+
+</style>
+</head>
+<h1>Dapp is here</h1>
+<h2 id="displayerror"></h2>
+<button id="connect" >Connect Here</button></br>
+<button id="getacc" >Get Acc</button></br>
+<div id="getAccountsResult" ></div></br>
+<div id="betdiv" class="center">
+    <input type="text" id="bet" placeholder="bet" >
+    <input type="text" id="team" placeholder="team" >
+    <label for="selectedacc">Choose account:</label>
+      <select name="acc" id="selectedacc">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+    <button id="placeBet" >Place Bet</button></br></br>
+    <button id="withdraw" >Withdraw</button></br></br>
+    <button id="check" >Check</button></br></br>
+    <input type="text" id="winbet" placeholder="winner team" >
+    <button id="winningBet" >Winning Bet</button>
+</div>
+
+</html>
